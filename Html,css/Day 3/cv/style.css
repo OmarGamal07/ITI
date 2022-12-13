@@ -1,0 +1,45 @@
+#container{
+    width: 500px;
+    height: 1000px;
+    background-color:bisque;
+    position: relative;
+    align-items: center;
+    left: 30%;
+}
+.left{
+    width:500px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    
+    
+}
+.right{
+    position: absolute;
+    right: 100px;
+    
+    
+}
+.leftprof{
+    width:400px;
+    position: relative;
+    left: 50px;
+    top: 160px;  
+}
+
+.left>hr{
+    width:80%;
+    text-align:left;margin-left:0;
+}
+
+div+hr{
+    clear:both ;
+}
+#date{
+    position: absolute;
+    right: 5px;
+}
+#linetechincal{
+    width: 80%;
+    text-align:right;margin-right:0;
+}

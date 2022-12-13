@@ -1,0 +1,19 @@
+.mood{
+    float: left;
+}
+div>h2{
+    color:blue ;
+    font-size: 30px;
+    font-family: Verdana;
+}
+p b{
+    color:darkgoldenrod;
+}
+li a{
+    color: red;
+}
+*{
+    background-color:black;
+    color:white;
+    opacity: 0.9;
+}
