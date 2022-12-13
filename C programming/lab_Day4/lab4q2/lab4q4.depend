@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667902097 source:e:\opensource\c\day3\lab4q4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
