@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1667041123 source:e:\open soure\c\day1\lab1q1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1667041296 source:e:\open soure\c\day1\lab1q1\q2.c
+	<stdio.h>
+	<stdlib.h>
+

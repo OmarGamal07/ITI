@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1667304887 source:e:\open soure\c\day1\q5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
