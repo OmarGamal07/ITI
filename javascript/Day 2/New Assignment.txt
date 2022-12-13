@@ -1,0 +1,10 @@
+1-Create array that contain some tips about JavaScript (Array of 10 strings, each string is tip about JS), 
+  and show random tip for the user each time he opens the page "Tip of the day". 
+
+2-Make a button that display the current date and time in local format on the page.
+
+3-Make a function that accepts array and number and return how many times this number found in the array
+
+4-Make a function that accept array and character then remove this character from the array
+
+5-Make function that accepts array and return the maximum number in the array.
