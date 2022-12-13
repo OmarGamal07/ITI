@@ -1,0 +1,211 @@
+body
+{
+    background-color: #d4d3c7;
+    
+   
+}
+ #slide{
+    z-index: -1;position: absolute;
+} 
+/* .backimg{
+    background-image: url("slidshow.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+} */
+#head{
+    background-color: #131921;
+    height: 70px;
+    color: white;
+}
+#head a{
+    float:left ;
+    
+}
+
+#search{
+    margin-top: 10px; float: left;  width: 850px; height: 40px;
+}
+#divIconsearch{
+    background-color:#e9ae63 ;
+    width: 50px;
+    height: 40px;
+    margin-left: 0px;
+     margin-top: 10px;
+}
+
+#iconSearch{
+    float:left ;
+    margin-top: 7px;
+    margin-left:10px ;
+    font-size: 30px;
+    color: black;
+}
+#department{
+    margin-top: 10px;float: left;
+    text-align: center;  width: 50px; height: 40px; color: black;
+    background-color: #f3f3f3;
+}
+option{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.signin{
+    color: white; font-size: large;
+}
+
+#head div{
+    width: 30px;float:left;height: 25px; margin: 12px;
+}
+
+#nexthead a{
+    margin-left: 15px;
+   float:left;
+   color: white;
+}
+#nexthead{
+    height: 30px;
+    background-color:#232f3e ;
+   
+    padding: 10px;
+}
+
+
+.category{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px; /* 5px rounded corners */
+  background-color: white;
+  width: 350px;
+  margin-left: 20px;
+  height: 480px;
+   position: relative; 
+   top: 180px;
+  float: left;
+  margin-top: 20px;
+}
+.category h3{
+    padding-top: 20px;
+    margin-left: 20px;
+    color: black;
+}
+/* item in category */
+.items{
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    background-color:#f2fafb;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+/* div have 4 img */
+#imgcategory{
+    margin-top:10px ;
+}
+/* div have 1 img */
+#singleimgcategory{
+    margin-left:10px ;
+}
+/* name each img in div have 4 img */
+.items p{
+    color: black;
+    text-align: center;
+}
+
+.shopnow{
+    position:absolute ;bottom: 20px; left: 10px;
+    color:cadetblue ;
+}
+
+/* div list have only ims */
+.listItem{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px; /* 5px rounded corners */
+  background-color: white;
+  margin-right: 25px;
+  margin-left: 20px;
+  
+  height: 300px; 
+
+  position: relative; 
+ 
+  margin-top: 20px;
+}
+.imghomeDecor{
+    position:absolute;margin-top: 70px; margin-left: 10px; float: left
+}
+.listItem h3{
+    padding-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+
+    color: black;
+}
+
+.moreDigit{
+    position: relative;
+    top: 750px;
+    background-color: white;
+    height: 850px;
+}
+
+.moreDigit a:hover{
+    color: orange;
+}
+.moredigitp{
+    font-size: larger;position:relative;top:60px; margin-left: 50px;float: left;
+}
+.moredigitpage{
+    position:relative;top:60px; float: right; margin-right: 30px;
+}
+.historylink{
+    position:relative;top:480px; margin-left: 20px;color:cadetblue ;
+}
+.historylink:hover{
+    color: orange;
+}
+.imghistory{
+    top:500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px; /* 5px rounded corners */
+  background-color: white;
+  margin-right: 25px;
+  margin-left: 20px;
+  
+  height: 200px; 
+
+  position: relative; 
+ 
+  margin-top: 15px;
+}
+.backtotop{
+    position:relative ;
+     top:500px;
+     height: 40px;
+     padding-top: 10px;
+     text-align: center; 
+     background-color: #232f3e;
+     width: 100%;
+     font-size: larger;
+     opacity: 0.9;
+}
+p~div{
+    margin-bottom: 10px;font-size: large;
+}
+.footer1{
+    color:white ; position: absolute;margin-top: 50px;margin-left: 200px; float: left; 
+}
+.footer1 p{
+    font-size: small;
+}
+.footer1 a{
+    color: white;
+}
