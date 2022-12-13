@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1668951151 source:e:\opensource\ds\queuecircular\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mycircular.h"
+
+1668936449 e:\opensource\ds\queuecircular\include\mycircular.h
+

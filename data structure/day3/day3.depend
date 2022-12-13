@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1669390414 source:e:\opensource\ds\day3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"bubblesort.h"
+	"linkedlist.h"
+	"binarysearch.h"
+
+1669388029 e:\opensource\ds\day3\include\bubblesort.h
+	"linkedlist.h"
+
+1669387771 e:\opensource\ds\day3\include\linkedlist.h
+
+1669390795 e:\opensource\ds\day3\include\binarysearch.h
+	"linkedlist.h"
+

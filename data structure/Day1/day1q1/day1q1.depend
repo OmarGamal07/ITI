@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1668529442 source:e:\opensource\ds\day1\day1q1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Linkedlist.h"
+
+1668529562 e:\opensource\ds\day1\day1q1\include\linkedlist.h
+

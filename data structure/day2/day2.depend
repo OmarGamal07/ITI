@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1668930600 source:e:\opensource\ds\day2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mystack.h"
+
+1668931044 e:\opensource\ds\day2\include\mystack.h
+

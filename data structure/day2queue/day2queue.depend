@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1668933221 source:e:\opensource\ds\day2queue\main.cpp
+	<iostream>
+	"myqueue.h"
+
+1668933443 e:\opensource\ds\day2queue\include\myqueue.h
+
