@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 20px;
+        }
+        body>header{
+            background-color: coral;
+        }
+        section>h2{
+            background-color: darkgray;
+        }
+        img{
+            width: 200px;
+            height: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>skills</h1>
+    </header>
+    <nav style="float:left;width:30%">
+        <a href="#"> 9 months</a>
+        <a href="#"> 3 months</a>
+    </nav>
+    <main style="float:left;width:50%">
+        <section>
+            <h2>english</h2>
+            <meter min="0" max="100" value="80" ></meter>
+        </section>
+        <section>
+            <h2>arabic</h2>
+            <meter min="0" max="100" value="95" ></meter>
+        </section>
+        <section>
+            <h2>spanish</h2>
+            <meter min="0" max="100" value="20" ></meter>
+        </section>
+        <section>
+            <h2>my birthday</h2>
+            <time datetime="2000-7-27T14:30:00">27 july 2000 2:30:00pM</time>
+        </section>
+        <section>
+            <h2>audio</h2>
+            <audio src="1_1.mp3" id="audio"></audio>
+            <button onclick="play()">play</button>
+            <button onclick="pause()">pause</button>
+        </section>
+        <section>
+            <h2>video</h2>
+            <video src="video.mp4" controls></video>
+        </section>
+        <section>
+            <h2>input</h2>
+            <input type="text" required placeholder="hi" pattern="[A-Za-z]" title="input">
+        </section>
+        <section>
+            <h2>draganddrop</h2>
+
+            <div 
+        ondragover="event.preventDefault()"
+        ondrop="DropElement(this)"
+        id="div1"
+        style="width:90%;height: 300px;border: 5px solid red;background-color:aliceblue;">
+    </div>
+    <img draggable="true" src="1.png" id="1" ondragstart="GiveId(this)">
+    <img draggable="true" src="2.jpg" id="2" ondragstart="GiveId(this)">
+        
+        </section>
+    </main>
+    <aside>
+        <p>aside section</p>
+    </aside>
+    <footer style="clear: both;">
+        <p>connect with us</p>
+    </footer>
+    <script>
+        function play()
+        {
+            document.getElementById("audio").play();
+        }
+        function pause()
+        {
+            document.getElementById("audio").pause();
+        }
+        var imgObj ,c=0;
+        function GiveId(imgelem){
+            console.log("Image drag start");
+            imgObj=imgelem;
+        }
+        function DropElement(elem){
+            c++;
+            if(c==1)
+                elem.appendChild(imgObj);
+            
+        }
+    </script>
+</body>
+</html>
