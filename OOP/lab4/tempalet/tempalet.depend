@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1673340436 source:e:\opensource\oop\day8\lab\tempalet\main.cpp
+	<iostream>
+	"list.h"
+
+1673340390 e:\opensource\oop\day8\lab\tempalet\include\list.h
+	<iostream>
+	<iostream>
+

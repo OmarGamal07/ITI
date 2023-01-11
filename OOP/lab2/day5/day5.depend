@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1672300689 source:e:\opensource\oop\day5\lab\day5\main.cpp
+	<iostream>
+	"line.h"
+	"point.h"
+
+1672302071 e:\opensource\oop\day5\lab\day5\include\line.h
+	"point.h"
+	<math.h>
+
+1672301649 e:\opensource\oop\day5\lab\day5\include\point.h
+
