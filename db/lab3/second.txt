@@ -1,0 +1,15 @@
+
+1NF
+project(#proj_No,proj_ame)
+work_for(#*proj_No,#employee_No,employee_name,jobclass,chs hour,hoursbilled)
+
+
+2NF
+project(#proj_No,proj_ame)
+work-for(#*proj_No,#*employee_No,chshour,hoursbilled)
+employee(#employee_No,employee_name,jobclass)
+
+
+3NF = 2NF
+not change
+

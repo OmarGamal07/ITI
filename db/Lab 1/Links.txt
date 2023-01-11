@@ -1,0 +1,6 @@
+Download
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+Install
+https://www.youtube.com/watch?v=OWro7Az0gAU&ab_channel=ProgrammingKnowledge
+
