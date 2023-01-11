@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  iti-branch SYSTEM "E:\open soure\xml\lab1\lab1.dtd" >
+<iti-branch>
+<Trainee group="group1" age="18">
+<name>omar</name>
+<addrees governorate="assuit" street="sd" zipcode="8"></addrees>
+<phone>011568489</phone>
+<phone>051689489</phone>
+<course-result grade="A">
+<course-name>xml</course-name>
+</course-result>
+</Trainee>
+</iti-branch>

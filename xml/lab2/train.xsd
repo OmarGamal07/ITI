@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="TraineeAffairs" >
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="Trainee" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+    
+    <xs:simpleType name="mytype">
+<xs:union memberTypes="xs:integer xs:string"/>
+</xs:simpleType>
+
+<xs:simpleType name="myInteger">
+<xs:restriction base="xs:integer">
+<xs:minInclusive value="0"/>
+</xs:restriction>
+</xs:simpleType>
+
+
+    <xs:element name="Trainee" >
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="Address"   />
+<xs:element name="Phone"  type="TelephoneNumber" minOccurs="0" maxOccurs="unbounded" />
+<xs:element ref="CourseResult"  />
+</xs:sequence>
+<xs:attribute name="Name" type="xs:string" use="required" />
+<xs:attribute name="Age" type="xs:positiveInteger" use="required" />
+<xs:attribute ref="Group" use="required"/>
+</xs:complexType>
+</xs:element>
+
+
+<xs:attribute name="Group">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:enumeration value="group1"/>
+<xs:enumeration value="group2"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:attribute>
+
+
+<xs:element name="Address">
+<xs:complexType >
+<xs:complexContent>
+<xs:restriction base="xs:anyType">
+<xs:attribute name="Governorate" use="required"
+type="xs:string"/>
+<xs:attribute name="Street" use="required"
+type="xs:string"/>
+<xs:attribute name="ZipCode" use="optional"
+type="xs:int"/>
+</xs:restriction>
+</xs:complexContent>
+</xs:complexType>
+</xs:element> 
+
+
+<xs:simpleType name="TelephoneNumber">
+<xs:restriction base="xs:string">
+<xs:length value="8"/>
+<xs:pattern value="\d{3}-\d{4}"/>
+</xs:restriction>
+</xs:simpleType>
+
+
+<xs:element name="Phone"
+type="TelephoneNumber"/>
+
+<xs:element name="CourseResult">
+<xs:complexType>
+<xs:complexContent>
+<xs:restriction base="xs:anyType">
+<xs:attribute name="CourseName" use="required"
+type="xs:string"/>
+<xs:attribute ref="TraineeGrade" use="required"/>
+</xs:restriction>
+</xs:complexContent>
+</xs:complexType>
+</xs:element> 
+
+
+<xs:attribute name="TraineeGrade">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:enumeration value="A"/>
+<xs:enumeration value="B"/>
+<xs:enumeration value="C"/>
+<xs:enumeration value="D"/>
+<xs:enumeration value="E"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:attribute>
+
+
+
+</xs:schema>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT TraineeAffairs (Trainee)+ >
+
+<!ELEMENT Trainee (Address, Phone*, CourseResult)>
+<!ATTLIST Trainee
+	Name CDATA #REQUIRED
+	Age CDATA #REQUIRED
+	Group (group1 | group2) #REQUIRED> 
+
+<!ELEMENT Address EMPTY>
+
+<!ATTLIST Address 
+Governorate CDATA #REQUIRED
+Street CDATA #REQUIRED
+ZipCode CDATA #IMPLIED>
+
+
+<!ELEMENT Phone (#PCDATA)>
+
+
+<!ELEMENT CourseResult EMPTY>
+
+<!ATTLIST CourseResult 
+CourseName CDATA #REQUIRED
+TraineeGrade (A | B | C | D | E) #REQUIRED
+>					

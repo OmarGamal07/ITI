@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT family (grandfather,grandmother)+>
+<!ELEMENT grandfather (son*,daughter*)>
+<!ATTLIST grandfather
+   name CDATA #REQUIRED
+   age CDATA #REQUIRED
+>
+<!ELEMENT grandmother (son*,daughter*)>
+<!ATTLIST grandmother
+   name CDATA #REQUIRED
+   age CDATA #REQUIRED
+>
+<!ELEMENT son (wife?,child*)>
+<!ELEMENT daughter (husband?,child*)>
+<!ATTLIST son
+   name CDATA #REQUIRED
+   age CDATA #REQUIRED
+   job CDATA #IMPLIED
+>
+<!ATTLIST daughter
+   name CDATA #REQUIRED
+   age CDATA #REQUIRED
+   job CDATA #IMPLIED
+>
+<!ELEMENT wife (#PCDATA)>
+<!ELEMENT child (#PCDATA)>
+<!ELEMENT husband (#PCDATA)>
+
